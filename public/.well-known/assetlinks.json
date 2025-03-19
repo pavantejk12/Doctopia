@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "xyz.appmaker.nllrpc",
+      "sha256_cert_fingerprints": ["FF:BB:D0:0F:10:10:56:3F:D2:AF:C2:77:1A:F3:DF:AC:01:32:E7:A4:4D:D7:5E:0C:E3:27:EA:6F:89:5D:F6:16"]
+    }
+  }
+]

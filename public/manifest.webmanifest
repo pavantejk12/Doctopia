@@ -1,0 +1,36 @@
+{
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Doctopia",
+    "short_name": "Doctopia",
+    "description": "Doctopia",
+    "icons": [
+        {
+            "src": "/icon.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon.png",
+            "sizes": "256x256",
+            "type": "image/png"
+            
+        },
+        {
+            "src": "/icon.png",
+            "sizes": "384x384",
+            "type": "image/png"
+            
+        },
+        {
+            "src": "/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        
+        }
+    ]
+}
