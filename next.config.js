@@ -21,22 +21,22 @@ module.exports = withPayload(
       images: {
         remotePatterns: [
           {
-            protocol: 'https',
-            hostname: 'domain.s3.us-east-1.amazonaws.com',
+            protocol: '',
+            hostname: '',
             port: '',
-            pathname: '/images/**',
+            pathname: '',
           },
           {
-            protocol: 'https',
-            hostname: 'id.cloudfront.net',
+            protocol: '',
+            hostname: '',
             port: '',
-            pathname: '/images/**',
+            pathname: '',
           },
           {
-            protocol: 'https',
-            hostname: 'lh3.googleusercontent.com',
+            protocol: '',
+            hostname: '',
             port: '',
-            pathname: '/a/**',
+            pathname: '',
           },
 
           // https://lh3.googleusercontent.com/a/ACg8ocKEgAFTyqmS-lBTOY8loNLBComLd7r4ROtGDkl79k_3=s96-c
