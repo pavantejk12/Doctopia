@@ -13,10 +13,10 @@ module.exports = withPayload(
   withPWA({
       
 
-      experimental:{
-        serverActions:false,
+      // experimental:{
+      //   serverActions:false,
         
-      },
+      // },
       distDir:'build',
       images: {
         remotePatterns: [
@@ -57,7 +57,7 @@ module.exports = withPayload(
     configPath: path.resolve(__dirname, "./payload/payload.config.ts"),
 
     // Point to custom Payload CSS (optional)
-    // cssPath: path.resolve(__dirname, "./payload/payload.css"),
+       cssPath: path.resolve(__dirname, "./css/payload/payload.css"),
 
     // Point to your exported, initialized Payload instance (optional, default shown below`)
     payloadPath: path.resolve(process.cwd(), "./payload/payloadClient.ts"),
